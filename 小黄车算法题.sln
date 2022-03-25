@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小黄车算法题", "小黄车算法题.csproj", "{545F40B6-A786-48DE-8CEF-AFD8537F6EC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小黄车模拟器", "小黄车模拟器\小黄车模拟器.csproj", "{D12A5357-1884-47B6-BC8D-B13E92BA4FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小黄车算法核心", "小黄车算法核心\小黄车算法核心.csproj", "{E535BEFC-7DBA-4E2E-9827-FAB56243DDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小黄车模拟控制台", "小黄车模拟控制台\小黄车模拟控制台.csproj", "{43ECDB5F-97C5-4868-BD94-797594D4D6EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{545F40B6-A786-48DE-8CEF-AFD8537F6EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{545F40B6-A786-48DE-8CEF-AFD8537F6EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{545F40B6-A786-48DE-8CEF-AFD8537F6EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{545F40B6-A786-48DE-8CEF-AFD8537F6EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12A5357-1884-47B6-BC8D-B13E92BA4FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12A5357-1884-47B6-BC8D-B13E92BA4FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12A5357-1884-47B6-BC8D-B13E92BA4FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12A5357-1884-47B6-BC8D-B13E92BA4FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E535BEFC-7DBA-4E2E-9827-FAB56243DDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E535BEFC-7DBA-4E2E-9827-FAB56243DDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E535BEFC-7DBA-4E2E-9827-FAB56243DDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E535BEFC-7DBA-4E2E-9827-FAB56243DDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43ECDB5F-97C5-4868-BD94-797594D4D6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43ECDB5F-97C5-4868-BD94-797594D4D6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43ECDB5F-97C5-4868-BD94-797594D4D6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43ECDB5F-97C5-4868-BD94-797594D4D6EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

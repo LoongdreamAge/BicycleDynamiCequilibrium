@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace 小黄车算法题
+namespace 小黄车算法核心.元数
 {
-    internal class 常量
+    public class 常量
     {
         /// <summary>
         /// X轴向右正向延伸，Y轴向下正向延伸

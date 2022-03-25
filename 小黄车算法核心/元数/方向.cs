@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace 小黄车算法题
+namespace 小黄车算法核心.元数
 {
-    internal enum 方向
+    public enum 方向
     {
         上,
         下,

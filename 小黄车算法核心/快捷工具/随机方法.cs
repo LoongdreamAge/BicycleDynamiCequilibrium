@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using 小黄车算法核心.万物;
+using 小黄车算法核心.元数;
 
-namespace 小黄车算法题.Utils
+namespace 小黄车算法核心.快捷工具
 {
-    internal class 随机方法
+    public class 随机方法
     {
         static object _lock = new object();
         static Random random = new Random((int)DateTime.Now.Ticks);
@@ -35,25 +37,25 @@ namespace 小黄车算法题.Utils
                 switch (移动方向)
                 {
                     case 方向.上:
-                    {
-                        Y向量 -= 1;
-                        break;
-                    }
+                        {
+                            Y向量 -= 1;
+                            break;
+                        }
                     case 方向.下:
-                    {
-                        Y向量 += 1;
-                        break;
-                    }
+                        {
+                            Y向量 += 1;
+                            break;
+                        }
                     case 方向.左:
-                    {
-                        X向量 -= 1;
-                        break;
-                    }
+                        {
+                            X向量 -= 1;
+                            break;
+                        }
                     case 方向.右:
-                    {
-                        X向量 += 1;
-                        break;
-                    }
+                        {
+                            X向量 += 1;
+                            break;
+                        }
                 }
 
                 //检查一下是不是越界了
@@ -84,13 +86,13 @@ namespace 小黄车算法题.Utils
                 return (方向)random.Next(0, 4);
         }
 
-        public static 地铁站 随机选择一个出生点(Dictionary<string, 地铁站> 地铁站们)
+        public static 地铁站 随机选择一个出生点()
         {
             int index = 0;
             lock (_lock)
-                index = random.Next(0, 地铁站们.Count - 1);
-            return 地铁站们[地铁站们.Keys.ToArray()[index]];
+                index = random.Next(0, 元.地铁站们.Count);
+            return 元.地铁站们[元.地铁站们.Keys.ToArray()[index]];
         }
-        
+
     }
 }
